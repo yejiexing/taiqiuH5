@@ -1,0 +1,381 @@
+.pull-lf{
+	float: left;
+}
+.pull-rt{
+	float: right;
+}
+.chat_container * {
+	font-size: 26px;
+	
+}
+
+.wp {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.page {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.cont {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.chat_container {
+	padding: 0.65625rem 0.28125rem 1.34375rem;
+	background-color: #ebebeb;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.chat_tips {
+	width: 9rem;
+	color: #fcfcfc;
+	font-size: 0.35938rem;
+	padding: 0.15625rem 0.3125rem;
+	border-radius: 0.125rem;
+	background-color: #cecece;
+	margin: 0 auto 0.25rem;
+	line-height: 1.5;
+}
+
+.msg_box {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 0.75rem;
+}
+
+.msg {
+	margin-left: 0.23438rem;
+/*	margin-top: -0.4rem;*/
+	position: relative;
+}
+
+.avatar {
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.userpic{
+	background-image: url("../images/moren.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.avatar img {
+	width: 100%;
+}
+
+.msg_name {
+	width: 8rem;
+	color: #737373;
+	font-size: 0.3125rem;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+.fr {
+      display: inline-block;
+    text-align: right;
+    width: 8rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #737373;
+    font-size: 0.3125rem;
+}
+.msg_text {
+	margin-top: 0.55rem;
+	position: relative;
+	max-width: 8rem;
+	background-color: #fff;
+	border: 0.03125rem solid #d2d2d2;
+	border-radius: 0.125rem;
+	padding: 0.15625rem 0.3125rem;
+	color: #000;
+	font-size: 0.42188rem;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.min_text {
+	width: 2.5rem;
+}
+
+.msg_text img {
+	display: inline-block;
+}
+
+.chat_arrow {
+	width: 0.25rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.35rem;
+	left: -0.24rem;
+}
+
+.chat_arrow_my {
+	width: 0.25rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.35rem;
+	right: -0.24rem;
+}
+
+.my_msg_box {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.my_msg_box .msg_text {
+	background-color: #a0e75a;
+	border: 0.03125rem solid #7ebc5f;
+}
+
+.my_msg_box .msg {
+	    text-align: right;
+	margin-right: 0.23438rem;
+	    /*margin-top: -0.5rem;*/
+}
+
+.biaoqing {
+	width: 0.6rem;
+    height: 0.6rem;
+	vertical-align: middle;
+	margin: 0 0.0625rem;
+}
+
+.maximg {
+	width: 5rem;
+	margin-top: 0.55rem;
+}
+
+.chat_bottom {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.fengmian {
+	/*width: 5.9375rem;
+  height: 3.4375rem;*/
+	position: relative;
+}
+
+.hand {
+	width: 0.78125rem;
+	height: 0.71875rem;
+	background: url("../images/22.png") no-repeat;
+	background-size: 100%;
+	-webkit-animation: flash 1.5s linear infinite both;
+	animation: flash 1.5s linear infinite both;
+	/*position: absolute;
+ bottom: 15%;
+    right: 20%; */
+	/*margin-left: -10%;*/
+	position: absolute;right: 0;top: 25%;
+	z-index: 10000;
+}
+#dian{
+	width:7rem;margin-top: 0.55rem;height: 2.496rem;position: relative;background-image: url('../images/weixin_hb.png')
+}
+#dian>div{
+	font-size: 0.42rem;position: absolute;top: 0.4rem;left: 2rem;width: 4.5rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+#dian>span{
+	font-size: 0.36rem;position: absolute;top: 1rem;left: 2rem;width: 4.5rem;
+}
+
+/*page5样式stare*/
+.page_bg{
+	 position: relative;
+	 margin-bottom: 0.8rem
+}
+.page_name{
+	position: absolute;
+	bottom: 0.1rem;
+	right: 2.5rem;
+	font-size: 14px;
+	text-shadow: rgba(0,0,0,0.3) 1px 1px 1px;
+}
+.page_bg img:last-child{
+	width: 18%;
+	position: absolute;
+	bottom: -0.8rem;
+	right: 0.3rem;
+}
+.page5-ul{
+	color: #000;
+	font-size: 0.36rem;
+	background-color: #fff;
+}
+.name{
+	color: #596d93 !important;
+}
+.page5-li{
+	padding: 0.4rem 0.45rem 0.4rem 1.7rem;
+	overflow: hidden;
+}
+.page5-li>h1{
+	float: left;
+	position: relative;
+	width: 3em;
+	height: 3em;
+	margin-left: -3.7em;
+	font-size: 0.38rem;
+	background-image: url("../images/icon.png");
+}
+.page5-li>h1:after{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	margin-left: 25%;
+	white-space: nowrap;
+	color: #596d93;
+}
+.img-1{
+	background-position-y: 20%;
+}
+.img-2{
+	background-position-y: 100%;
+}
+.img-3{
+	background-position-y: 80%;
+}
+.img-4{
+	background-position-y: 60%;
+}
+.img-5{
+	background-position-y: 40%;
+}
+.img-1:after{
+	content: '丁俊晖';
+}
+.img-2:after{
+	content: '奥沙利文';
+}
+.img-3:after{
+	content: '韩雨';
+}
+.img-4:after{
+	content: '刘莎莎';
+}
+.img-5:after{
+	 content: '陈思明';
+ }
+.img-6:after{
+	content: '潘晓婷❤《台球风云》代言人';
+}
+.page5-li>h2{
+	font-size: 0.38rem;
+	padding-top: 0.6rem;
+}
+.page5-li>p{
+	width: 45%;
+	margin-top: 0.3rem;
+}
+.page5-li>h3{
+	font-size: 0.28rem;
+	color: #7A7A7A;
+	margin: 0.15rem 0 0.2rem 0;
+	height: 0.6rem;
+}
+.MenuShare{
+	position: relative;
+	float: right;
+	width: 0;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	background-color: #373B3E;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	margin-top: -0.05rem;
+	margin-right: 0.2rem;
+	/*display: inline-block;*/
+}
+.img-dz{
+	width: 10%;
+	float: left;
+	margin-top: -0.1rem;
+	margin-left: -0.1rem;
+}
+.dz_menu{
+	right: 0.4rem;
+	top: 31%;
+	display: none;
+}
+.page5-li>footer{
+	position: relative;
+	background-color: #f3f3f5;
+	display: none;
+}
+.page5-li>footer:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border: solid transparent 0.5em;
+	border-bottom-color: #f3f3f5;
+	margin: -0.9em 0 0 0.7em;
+}
+.page5-li>footer h4,.page5-li>footer h5{
+	color: #596d93;
+	padding: 0.05rem 0.35rem;
+	font-size: 0.38rem;
+	display: none;
+}
+.page5-li>footer h5{
+	padding-top: 0;
+}
+.page5-li>footer h4+h5{
+	padding-top: 0.1rem;
+	border-top: solid #d8d8e0 1px;
+}
+.page5-li>footer h5 span{
+	color: #000;
+}
+/*page5样式end*/
+
+@-webkit-keyframes flash {
+	0% {
+		-webkit-opacity: 0;
+		opacity: 0;
+	}
+	50% {
+		-webkit-opacity: 1;
+		opacity: 1;
+	}
+	100% {
+		-webkit-opacity: 0;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.chat_container {
+	height: 100%;
+	width: 100%;
+}
